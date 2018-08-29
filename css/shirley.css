@@ -341,7 +341,8 @@ li, ul {
 }
 @media (max-width: 600px) {
   .header {
-    background-position-y: 0;
+    background-position-y: -5px;
+    background-position-x: 250px;
     background-size: 100vh;
   }
   .header__title-text {
@@ -364,19 +365,30 @@ li, ul {
   }
   /*AUTORA*/
   .autora__link {
-    height: 120px;
+    height: 80px;
   }
   .autora__img {
-    height: 120px;
-    width: 125px;
+    height: 80px;
+    width: 85px;
   }
   .autora__sobre {
     padding: 10px 20px;
+    font-size: 12px;
   }
 .ver-todas {
   width: 40%;
   height: 10%;
   padding: .5em;
-  font-size: 14px;
+  font-size: 12px;
+}
+.footer__img{
+  width: 200px;
+}
+.footer {
+  height: 200px;
+}
+.section__shirley__images {
+  width: 50%;
+  margin-right: 0;
 }
 }

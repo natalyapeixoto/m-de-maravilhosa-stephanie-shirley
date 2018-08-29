@@ -310,7 +310,7 @@ li, ul {
 }
 @media (max-width: 960px) {
   .header {
-    background-position-y: -115px;
+    background-position-y: -90px;
     height: 70vh;
   }
   .section__shirley__title {
@@ -342,13 +342,20 @@ li, ul {
 @media (max-width: 600px) {
   .header {
     background-position-y: -5px;
-    background-position-x: 250px;
+    background-position-x: 0px;
     background-size: 100vh;
   }
   .header__title-text {
     width: 100%;
     margin-bottom: 15%;
     margin-top: 0;
+  }
+  .section__shirley__title {
+    font-size: 23px;
+    margin-top: 0px;
+  }
+  .section__shirley__text {
+    font-size: 14px;
   }
   .quote__content {
     font-size: 25px;
@@ -357,7 +364,11 @@ li, ul {
     margin-right: 15%;
     margin-left: 15%;
   }
+  .history__title {
+    font-size: 23px;
+  }
   .history__container {
+    font-size: 14px;
     flex-direction: column;
   }
   .history__content {
@@ -375,20 +386,20 @@ li, ul {
     padding: 10px 20px;
     font-size: 12px;
   }
-.ver-todas {
-  width: 40%;
-  height: 10%;
-  padding: .5em;
-  font-size: 12px;
-}
-.footer__img{
-  width: 200px;
-}
-.footer {
-  height: 200px;
-}
-.section__shirley__images {
-  width: 50%;
-  margin-right: 0;
-}
+  .ver-todas {
+    width: 40%;
+    height: 10%;
+    padding: .5em;
+    font-size: 12px;
+  }
+  .footer__img{
+   width: 200px;
+  }
+  .footer {
+    height: 150px;
+  }
+  .section__shirley__images {
+    width: 50%;
+    margin-right: 0;
+  }
 }

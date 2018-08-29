@@ -308,9 +308,10 @@ li, ul {
     width: 70%;
     height: 20%;
   }
-}
-@media (max-width: 425px) {
-  .nav{
-   height: 70px;
-  }
+  .footer__img{
+    width: 200px;
+   }
+   .footer {
+     height: 150px;
+   }
 }

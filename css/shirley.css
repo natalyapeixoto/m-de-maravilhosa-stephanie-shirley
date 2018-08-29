@@ -1,0 +1,382 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding:0;
+  border: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li, ul {
+  list-style: none;
+}
+
+/* NAV BAR MAIN PAGE*/ 
+.nav {
+  display:flex;
+  background: rgb(36, 26, 34);
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100px;
+  z-index: 99;
+  align-items: center;
+  box-shadow: 0px 5px 25px rgba(29, 29, 29, 0.952);
+}
+.nav__burguer {
+  display:none;
+}
+.nav__logo {
+  margin-left: 15%;
+}
+.nav__logo-img {
+  width: 200px;
+  height: 50px;
+}
+.nav__menu {
+  display: flex;
+  margin-left: 160px;
+  margin-right: 20px;
+}
+.nav__item {
+  margin: 10px;
+}
+.nav__link {
+  color:white;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.nav__social {
+  margin-left:30px;
+  margin-right: 15%;
+}
+.nav__social__item {
+  margin-right: 5px;
+  width: 25px;
+}
+.nav__social__item:hover {
+  opacity: 0.7;
+}
+.nav__link:hover {
+  opacity: 0.7;
+}
+/* FIM DO NAV BAR */
+
+/*HEADER*/
+.header {
+  margin-top: 7%;
+  background:  url(../img/ted.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -260px;
+  height: 50vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 20%;
+}
+.header__title-text {
+  color: white;
+  text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.81);
+  text-transform: uppercase;
+  width: 100%;
+  margin-bottom: 7%;
+}
+/*fim do header*/ 
+
+/*section shirley*/
+.section__shirley__title {
+  text-align:center;
+  color:rgb(37, 22, 35);
+  font-size: 30px;
+  margin: 40px auto 0px auto;
+}
+.section__shirley{
+  display:flex;
+  align-items:center;
+  height: 300px;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+.section__shirley__images {
+  width: 20%;
+  margin-right: 4%;
+}
+.section__shirley__img {
+  margin-top: 0;
+  width: 100%;
+  border-radius: 100%;
+}
+.section__shirley__text {
+  padding-top: 1%;
+  width: 80%;
+  order:2;
+  text-align:justify;
+  margin-left: 10px;
+  font-weight: lighter;
+  line-height: 22px;
+  font-size: 16px;
+  color:rgba(70, 69, 69, 0.952);
+}
+/*SHIRLEY QUOTE*/
+.quote {
+  margin-top: 3%;
+  margin-right: 20%;
+  margin-left: 20%;
+  border: 1px solid rgba(128, 0, 128, 0.315);
+}
+.quote__content {
+  text-align:center;
+  font-size: 30px;
+  color: rgba(26, 1, 19, 0.952);
+  /*text-shadow: 1px 3px 1px rgba(192, 189, 189, 0.562);*/
+  transition: all 1s;
+}
+.quote__content:hover {
+  transform: scale(1.2);
+}
+/*FIM SHIRLEY QUOTE*/
+.history {
+  margin-top: 6%;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+.history__container {
+  display: flex;
+}
+.history__title {
+  color:rgb(37, 22, 35);
+  font-size: 30px;
+  margin-bottom: 0;
+}
+.history__content {
+  text-align: justify;
+  color:rgba(70, 69, 69, 0.952);
+  line-height: 22px;
+}
+.fotos__plane {
+  width: 230px;
+  filter:contrast(2);
+}
+
+/*AUTORA*/
+.autora {
+  margin: 6% auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(71, 52, 68, 0.582);
+  width: 100vw;
+}
+.autora__link {
+  height: 160px;
+}
+.autora__img {
+  height: 160px;
+  width: 165px;
+}
+.autora__img:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.autora__sobre {
+  padding: 10px 30px;
+}
+.autora__sobre__item {
+  color: rgb(248, 246, 246);
+  margin: 0;
+}
+.autora__sobre__item a {
+  text-decoration: underline;
+}
+
+/*FOOTER */
+.footer {
+  margin-top:6%;
+  background-color: #323534;
+  display: flex; 
+  align-items: center;
+  height: 250px;
+  justify-content: center;
+}
+.footer__text {
+  text-align:center;
+  margin-right: 25px;
+}
+.footer__text-item {
+  color:#F3F3F3;
+  font-size: 20px;
+  margin: 0px;
+}
+.footer__logo{
+  margin-right: 25px;
+}
+.footer__img {
+  width: 320px;
+}
+.facebook-icon {
+  width: 19px;
+  margin-right: 9px;
+  padding-bottom: 10px;
+}
+.footer__facebook {
+  display: flex;
+  align-items: center;
+}
+.add-fb {
+  font-size: 20px;
+  color:  #F3F3F3;
+}
+.footer__bottom{
+  background: #292A2A;
+  text-align:center;
+  color:white;
+  font-size: 14px;
+  padding: 20px;
+}
+.footer__bottom__text {
+  margin: 0;
+}
+/* FIM FOOTER */ 
+
+/*BOTAO DO FINAL */
+.botao-final {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6%;
+}
+.ver-todas {
+  font-weight: bold;
+  text-align:center;
+  display: block;
+  color: white;
+  width: 20%;
+  height: 10%;
+  background-color: #C083B9;
+  border-radius: 10px;
+  padding: .5em;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.ver-todas:hover {
+  background-color: purple;
+}
+/*FIM DO BOTAO*/
+
+/*media queries*/   /*tablet*/
+@media (max-width: 1100px) {
+  .header{
+    background-size: 100%;
+  }
+  .nav__social, .nav__menu {
+    display:none;
+  }
+  .nav__burguer {
+    display: block;
+    margin-right: 10%;
+  }
+  .nav {
+    justify-content: space-between;
+  }
+  .header {
+    background-position-y: -190px;
+  }
+  .header__title-text {
+    margin-left: 20%;
+  }
+  .section__shirley__title {
+    font-size: 27px;
+    margin: 40px auto 15px auto;
+  }
+  .section__shirley{
+    height: 180px;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  .quote {
+    margin-top: 6%;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  .history {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+}
+@media (max-width: 960px) {
+  .header {
+    background-position-y: -115px;
+    height: 70vh;
+  }
+  .section__shirley__title {
+    font-size: 27px;
+    margin: 40px auto 50px auto;
+  }
+  .section__shirley{
+    display:flex;
+    flex-direction: column;
+    height:auto;
+  }
+  .section__shirley__images {
+    width: 35%;
+    margin-right: 0;
+  }
+  .history__foto {
+    padding-top: 30px;
+  }
+  .ver-todas {
+    width: 30%;
+  }
+  .footer__text {
+    display:none;
+  }
+  .footer__facebook {
+    display:none;
+  }
+}
+@media (max-width: 600px) {
+  .header {
+    background-position-y: 0;
+    background-size: 100vh;
+  }
+  .header__title-text {
+    width: 100%;
+    margin-bottom: 15%;
+    margin-top: 0;
+  }
+  .quote__content {
+    font-size: 25px;
+  }
+  .history {
+    margin-right: 15%;
+    margin-left: 15%;
+  }
+  .history__container {
+    flex-direction: column;
+  }
+  .history__content {
+    order: 2;
+  }
+  /*AUTORA*/
+  .autora__link {
+    height: 120px;
+  }
+  .autora__img {
+    height: 120px;
+    width: 125px;
+  }
+  .autora__sobre {
+    padding: 10px 20px;
+  }
+.ver-todas {
+  width: 40%;
+  height: 10%;
+  padding: .5em;
+  font-size: 14px;
+}
+}

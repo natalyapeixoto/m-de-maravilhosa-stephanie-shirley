@@ -132,12 +132,21 @@ li, ul {
   text-align:center;
   margin-top: 4%;
 }
+
+.carousel-inner {
+  margin: 6% auto;
+  padding: 4%;
+}
 .mulhere__icone {
-  width: 200px;
-  height: auto;
-  background-color: #63458A;
-  margin: 20px;
-  border-radius: 8px;
+  display: block;
+  margin: 0 auto; 
+  width: 30%;
+  background-color: #674582;
+  border-radius: 3%;
+}
+figcaption {
+  text-align:center;
+  font-weight: bold;
 }
 /*FIM DA SECTION */ 
 

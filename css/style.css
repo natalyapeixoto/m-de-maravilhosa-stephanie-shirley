@@ -107,6 +107,8 @@ li, ul {
 }
 .main__btn:hover {
   background-color: purple;
+  text-decoration: none;
+  color:white;
 }
 /* FIM DO MAIN */ 
 

@@ -1,5 +1,5 @@
-# m-de-maravilhosa-stephanie-shirley
+### Final project of the first Module at {reprograma} bootcamp 
 
-## HTML & CSS
+##### Using HTML, CSS and Bootstrap. 
 
-##### https://natalyapeixoto.github.io/m-de-maravilhosa-stephanie-shirley/
+We had to choose one amazing woman to make a tribute page of. I chose Stephanie Shirley. 

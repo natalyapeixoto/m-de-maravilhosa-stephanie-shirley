@@ -1,6 +1,6 @@
 ### Final project of the first Module at {reprograma} bootcamp 
 
-#### Tecnologies used:
+#### Technologies used:
 
 * HTML 
 * CSS
